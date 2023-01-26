@@ -27,7 +27,7 @@ export default function Skills() {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Python} width='32px' height='32px' alt='/' />
+                <Image src={Python} width={32} height={32} alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Python</h3>
@@ -37,7 +37,7 @@ export default function Skills() {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Flask} width='32px' height='32px' alt='/' />
+                <Image src={Flask} width={32} height={32} alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Flask</h3>
@@ -47,7 +47,7 @@ export default function Skills() {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Fastapi} width='32px' height='32px' alt='/' />
+                <Image src={Fastapi} width={32} height={32} alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>FastAPI</h3>
@@ -61,7 +61,7 @@ export default function Skills() {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Cplusplus} width='32px' height='32px' alt='/' />
+                <Image src={Cplusplus} width={32} height={32} alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>C++</h3>
@@ -71,7 +71,7 @@ export default function Skills() {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Sql} width='32px' height='32px' alt='/' />
+                <Image src={Sql} width={32} height={32} alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>SQL</h3>
@@ -81,7 +81,7 @@ export default function Skills() {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Mongo} width='32px' height='32px' alt='/' />
+                <Image src={Mongo} width={32} height={32} alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>MongoDB</h3>
@@ -91,7 +91,7 @@ export default function Skills() {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Github} width='32px' height='32px' alt='/' />
+                <Image src={Github} width={32} height={32} alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Git</h3>
@@ -101,7 +101,7 @@ export default function Skills() {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Html} width='32px' height='32px' alt='/' />
+                <Image src={Html} width={32} height={32} alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>HTML</h3>
@@ -111,7 +111,7 @@ export default function Skills() {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Css} width='32px' height='32px' alt='/' />
+                <Image src={Css} width={32} height={32} alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>CSS</h3>
@@ -121,7 +121,7 @@ export default function Skills() {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Javascript} width='32px' height='32px' alt='/' />
+                <Image src={Javascript} width={32} height={32} alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Javascript</h3>
@@ -131,7 +131,7 @@ export default function Skills() {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={ReactImg} width='32px' height='32px' alt='/' />
+                <Image src={ReactImg} width={32} height={32} alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>React</h3>
@@ -145,7 +145,7 @@ export default function Skills() {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Java} width='32px' height='32px' alt='/' />
+                <Image src={Java} width={32} height={32} alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Java</h3>
@@ -155,7 +155,7 @@ export default function Skills() {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Fsharp} width='32px' height='32px' alt='/' />
+                <Image src={Fsharp} width={32} height={32} alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>F#</h3>

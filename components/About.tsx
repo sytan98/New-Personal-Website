@@ -32,7 +32,7 @@ export default function About() {
           </Link>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image src='/../public/asset/about/profile_pic.jpg' className='rounded-xl' alt='/' width={400} height={400} />
+          <Image src='/../public/assets/about/profile_pic.jpg' className='rounded-xl' alt='/' width={400} height={400} />
         </div>
       </div>
     </div>
