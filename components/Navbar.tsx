@@ -51,7 +51,7 @@ export default function Navbar() {
             alt='/'
             width='50'
             height='50'
-            className='cursor-pointer'
+            className='cursor-pointer mx-5'
           />
         </Link>
         <div>
@@ -65,7 +65,7 @@ export default function Navbar() {
             })}
           </ul>
         </div>
-        <div onClick={handleNav} className='md:hidden'>
+        <div onClick={handleNav} className='mx-5 md:hidden'>
           <AiOutlineMenu size={25} />
         </div>
       </div>
@@ -102,7 +102,7 @@ export default function Navbar() {
               {Sections.map((section, index) => {
                 return (
                   <Link key={index} href={section.link}>
-                    <li className='uppercase hover:border-b py-4'>{section.name}</li>
+                    <li onClick={handleNav} className='uppercase hover:border-b py-4'>{section.name}</li>
                   </Link>
                 )
               })}
