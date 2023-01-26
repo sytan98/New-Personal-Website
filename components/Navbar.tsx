@@ -4,6 +4,7 @@ import * as React from 'react';
 import { useEffect, useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import NavLogo from '../public/assets/navbar/logo.png'
 
 interface ISection {
   name: string,
@@ -46,7 +47,7 @@ export default function Navbar() {
       <div className='flex justify-between items-center w-full h-full'>
         <Link href='/'>
           <Image
-            src="/../public/assets/navbar/logo.png"
+            src={NavLogo}
             alt='/'
             width='50'
             height='50'
@@ -83,7 +84,7 @@ export default function Navbar() {
         >
           <div className='flex justify-between items-center w-full'>
             <Image
-              src="/../public/assets/navbar/logo.png"
+              src={NavLogo}
               alt='/'
               width='50'
               height='50'
