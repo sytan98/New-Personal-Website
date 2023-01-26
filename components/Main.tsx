@@ -10,10 +10,10 @@ export default function Main() {
             Hi there!
           </p>
           <h1 className='py-4 text-gray-700'>
-            I'm <span className='text-[#5651e5]'> Lionel Tan </span>
+            I&#39;m <span className='text-[#5651e5]'> Lionel Tan </span>
           </h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            I’m a Computer Science graduate student with a deep interest in software development and data science.
+            I&#39;m a Computer Science graduate student with a deep interest in software development and data science.
           </p>
           <div className='flex items-center justify-between max-w-[200px] m-auto py-4'>
             <a

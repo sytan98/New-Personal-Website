@@ -55,9 +55,9 @@ export default function Navbar() {
         </Link>
         <div>
           <ul className='hidden md:flex'>
-            {Sections.map(section => {
+            {Sections.map((section, index) => {
               return (
-                <li className={menuStyle}>
+                <li key={index} className={menuStyle}>
                   <Link href={section.link}>{section.name}</Link>
                 </li>
               )
@@ -98,9 +98,9 @@ export default function Navbar() {
           </div>
           <div className='border-y border-gray-300 my-4'>
             <ul>
-              {Sections.map(section => {
+              {Sections.map((section, index) => {
                 return (
-                  <Link href={section.link}>
+                  <Link key={index} href={section.link}>
                     <li className='uppercase hover:border-b py-4'>{section.name}</li>
                   </Link>
                 )
@@ -109,7 +109,7 @@ export default function Navbar() {
           </div>
           <div className='pt-40'>
             <p className='uppercase tracking-widest text-[#5651e5]'>
-              Let's Connect
+              Let&#39;s Connect
             </p>
             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
               <a

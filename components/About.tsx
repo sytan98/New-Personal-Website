@@ -12,7 +12,7 @@ export default function About() {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-            I'm currently doing an MEng in Computer Science at Cornell University, where I am taking modules in 
+            I&#39;m currently doing an MEng in Computer Science at Cornell University, where I am taking modules in 
             Machine Learning and Distributed Systems. I am interested in both Data Science and scalable systems 
             and aspire to be a Machine Learning Engineer or a Software Engineer dealing with big data. 
             Prior to this, I did my undergraduate in Electronic and Information Engineering (Computer Engineering) 
@@ -20,7 +20,7 @@ export default function About() {
           </p>
           <p className='py-2 text-gray-600'>
             I love hiking and outdoor activities such as kayaking. I also enjoy playing Badminton, boxing and 
-            just gymming in general. I'm also a huge Arsenal fan :)
+            just gymming in general. I&#39;m also a huge Arsenal fan :)
           </p>
           <Link 
             href="/assets/Resume.pdf"

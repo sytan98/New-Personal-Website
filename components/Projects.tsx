@@ -52,9 +52,10 @@ export default function Projects() {
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
-          {ProjectList.map(project => {
+          {ProjectList.map((project, index) => {
             return (
               <ProjectCard
+                key={index}
                 title={project.title}
                 backgroundImg={project.backgroundImg}
                 projectUrl={project.projectUrl}
